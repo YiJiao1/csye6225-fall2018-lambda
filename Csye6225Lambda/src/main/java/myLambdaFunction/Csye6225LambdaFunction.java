@@ -58,7 +58,7 @@ public class Csye6225LambdaFunction implements RequestHandler<SNSEvent,Object>{
 
 
         //Set a send email request
-        String FROM="cheng.li@husky.neu.edu";
+        String FROM="jiao.yi1@husky.neu.edu";
         String TO=userEmail;
         String BODY="http://csye6225-fall2018-chengli.me/reset?email="+userEmail+"$token="+userPassToken;
         String SUBJECT="RestPasswordLink";
